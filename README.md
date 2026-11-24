@@ -26,7 +26,7 @@ A modern, responsive personal portfolio showcasing my software engineering proje
 | Project | Tech Stack | Highlights |
 | :--- | :--- | :--- |
 | **[Hifz-ul-Quran App](https://github.com/HamzaMahfooz12/Al-Quran)** | Flutter, Dart, SQLite, Audio API | Quran memorization & revision tracking app with Surah/Ayah progress monitoring and audio playback. |
-| **[Tajweed-ul-Quran Institutional Website](https://github.com/HamzaMahfooz12/Tajweed-ul-Quran)** | React.js, JavaScript, CSS3 | Educational web platform featuring course curriculums, student registration workflows, and interactive syllabi. |
+| **[Institutional Website](https://github.com/HamzaMahfooz12/Tajweed-ul-Quran)** | React.js, JavaScript, CSS3 | Comprehensive institutional portal featuring structured course curriculums, student registration workflows, and responsive layouts. |
 | **AI Helmet Detection for Road Safety** *(Coming Soon)* | Python, OpenCV, YOLOv8, PyTorch | Deep-learning computer vision system to detect motorcycle riders without safety helmets in real-time traffic video streams. |
 | **[E-Commerce Web Application](https://github.com/HamzaMahfooz12/Ecommerce-Web)** | React.js, JavaScript, HTML5/CSS3 | Fully responsive e-commerce storefront with dynamic cart state management and modular React components. |
 | **University Bus Management System** | React.js, Flutter, JavaScript | Cross-platform campus transit solution with live routes, schedules, and stop coordinates. |

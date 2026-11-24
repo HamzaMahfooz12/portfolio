@@ -169,10 +169,10 @@ document.addEventListener('DOMContentLoaded', () => {
       github: 'https://github.com/HamzaMahfooz12/Al-Quran',
       download: '#'
     },
-    'tajweed-institute': {
-      title: 'Tajweed-ul-Quran Institutional Website',
-      image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-      description: '<p>An institutional educational web portal designed and developed for a Quranic and Tajweed learning academy.</p><p>Features interactive course catalogs, structured Tajweed curriculum breakdowns, online student registration and inquiry workflows, faculty profiles, and responsive design tailored for smooth accessibility across desktop and mobile devices.</p>',
+    'institutional-website': {
+      title: 'Institutional Website',
+      image: 'https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      description: '<p>A dedicated institutional web portal designed and developed for an educational organization and academic institution.</p><p>Features dynamic course catalogs, structured curriculum breakdowns, online student registration and inquiry workflows, faculty profiles, and responsive layouts optimized for fast accessibility across all devices.</p>',
       tech: ['React.js', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'Responsive UI'],
       github: 'https://github.com/HamzaMahfooz12/Tajweed-ul-Quran'
     },
