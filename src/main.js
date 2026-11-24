@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: '<p>A dedicated mobile application designed to assist students and Huffaz in Quran memorization (Hifz), regular revision cycles (Dorr), and recitation tracking.</p><p>Features structured Surah and Ayah navigation, bookmarking of challenging passages, revision schedules with progress analytics, and clear audio playback for pronunciation verification.</p>',
       tech: ['Flutter', 'Dart', 'SQLite', 'Audio API', 'Mobile UX'],
       github: 'https://github.com/HamzaMahfooz12/Al-Quran',
-      download: '#'
+      download: 'https://apkpure.com/hifz-ul-quran/com.alquran.al_quran/download'
     },
     'institutional-website': {
       title: 'Institutional Website',
