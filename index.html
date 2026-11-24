@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hamza Mahfooz - Portfolio</title>
+  <meta name="description" content="Portfolio of Hamza Mahfooz, Software Engineer and Full-Stack Developer.">
+  <!-- Google Fonts: Inter and Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700;800&display=swap"
+    rel="stylesheet">
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- Header & Navigation -->
+  <header id="header" class="header">
+    <nav class="nav-container">
+      <div class="logo">
+        <a href="#home">Hamza<span>.</span></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Education & Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-controls">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title fade-up">Hi, I'm <span class="highlight">Hamza Mahfooz</span></h1>
+          <p class="hero-subtitle fade-up delay-1">Software Engineer · Full-Stack Developer · Frontend Developer</p>
+          <p class="fade-up delay-1" style="color: var(--text-muted); margin-bottom: 2rem;">Undergraduate at FAST–NUCES
+            building scalable, high-performance applications.</p>
+          <div class="hero-actions fade-up delay-2">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me <i class="fa-solid fa-envelope"></i></a>
+          </div>
+          <div class="social-links fade-up delay-3">
+            <a href="https://github.com/HamzaMahfooz12" target="_blank" aria-label="GitHub"><i
+                class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/hamza-mahfooz-049907336/" target="_blank" aria-label="LinkedIn"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:gujgvh124@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="hero-image fade-in delay-2">
+          <!-- Using a placeholder for the professional image -->
+          <div class="image-wrapper glass">
+            <img src="/profilepic.jpeg" alt="Hamza Mahfooz">
+          </div>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <a href="#about"><i class="fa-solid fa-chevron-down"></i></a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section bg-alt">
+      <div class="container">
+        <h2 class="section-title fade-up">Professional Summary</h2>
+        <div class="about-grid"
+          style="grid-template-columns: 1fr; max-width: 900px; margin: 0 auto; text-align: center;">
+          <div class="about-text fade-up">
+            <p>I am a Software Engineering undergraduate at FAST–NUCES with hands-on experience in modern web
+              development, building scalable, high-performance applications across the frontend and backend using
+              React.js, JavaScript (ES6+), Node.js, and Express.js.</p>
+            <p>Skilled in database design (MySQL, MongoDB), RESTful API development and integration, authentication
+              systems, and software engineering principles. I am passionate about developing reliable, maintainable, and
+              user-centric software products.</p>
+          </div>
+          <div class="about-stats fade-up delay-1"
+            style="grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 2rem;">
+            <div class="stat-card glass">
+              <h4 class="stat-number">2x</h4>
+              <p class="stat-label">Academic Medals</p>
+            </div>
+            <div class="stat-card glass">
+              <h4 class="stat-number">30+</h4>
+              <p class="stat-label">LeetCode Solved</p>
+            </div>
+            <div class="stat-card glass">
+              <h4 class="stat-number">6+</h4>
+              <p class="stat-label">Major Projects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <h2 class="section-title fade-up">Technical Skills</h2>
+        <div class="skills-container">
+          <!-- Languages & Fundamentals -->
+          <div class="skill-category fade-up">
+            <h3 class="category-title"><i class="fa-solid fa-code"></i> Languages</h3>
+            <div class="skills-grid">
+              <div class="skill-card glass">
+                <i class="fa-brands fa-js skill-icon" style="color: #F7DF1E;"></i>
+                <span>JavaScript (ES6+)</span>
+              </div>
+              <div class="skill-card glass">
+                <i class="fa-solid fa-c skill-icon" style="color: #00599C;"></i>
+                <span>C++</span>
+              </div>
+              <div class="skill-card glass">
+                <i class="fa-brands fa-python skill-icon" style="color: #3776AB;"></i>
+                <span>Python</span>
+              </div>
+            </div>
+          </div>
+          <!-- Frontend -->
+          <div class="skill-category fade-up delay-1">
+            <h3 class="category-title"><i class="fa-solid fa-desktop"></i> Frontend</h3>
+            <div class="skills-grid">
+              <div class="skill-card glass">
+                <i class="fa-brands fa-react skill-icon" style="color: #61DAFB;"></i>
+                <span>React.js</span>
+              </div>
+              <div class="skill-card glass">
+                <i class="fa-brands fa-html5 skill-icon" style="color: #E34F26;"></i>
+                <span>HTML5 / CSS3</span>
+              </div>
+              <div class="skill-card glass">
+                <i class="fa-brands fa-bootstrap skill-icon" style="color: #7952B3;"></i>
+                <span>Bootstrap</span>
+              </div>
+              <div class="skill-card glass">
+                <i class="fa-solid fa-mobile-screen skill-icon" style="color: #2496ED;"></i>
+                <span>Responsive Design</span>
+              </div>
+            </div>
+          </div>
+          <!-- Backend & Databases -->
+          <div class="skill-category fade-up delay-2">
+            <h3 class="category-title"><i class="fa-solid fa-server"></i> Backend & Databases</h3>
+            <div class="skills-grid">
+              <div class="skill-card glass">
+                <i class="fa-brands fa-node-js skill-icon" style="color: #339933;"></i>
+                <span>Node.js / Express</span>
+              </div>
+              <div class="skill-card glass">
+                <i class="fa-solid fa-database skill-icon" style="color: #336791;"></i>
+                <span>MySQL</span>
+              </div>
+              <div class="skill-card glass">
+                <i class="fa-solid fa-leaf skill-icon" style="color: #47A248;"></i>
+                <span>MongoDB</span>
+              </div>
+              <div class="skill-card glass">
+                <i class="fa-solid fa-network-wired skill-icon" style="color: #FF9900;"></i>
+                <span>REST APIs / OAuth</span>
+              </div>
+            </div>
+          </div>
+          <!-- Tools & Practices -->
+          <div class="skill-category fade-up delay-3">
+            <h3 class="category-title"><i class="fa-solid fa-wrench"></i> Tools & Practices</h3>
+            <div class="skills-grid">
+              <div class="skill-card glass">
+                <i class="fa-brands fa-git-alt skill-icon" style="color: #F05032;"></i>
+                <span>Git & GitHub</span>
+              </div>
+              <div class="skill-card glass">
+                <i class="fa-solid fa-terminal skill-icon" style="color: #4D4D4D;"></i>
+                <span>Linux CLI</span>
+              </div>
+              <div class="skill-card glass">
+                <i class="fa-solid fa-bolt skill-icon" style="color: #FF6C37;"></i>
+                <span>Postman</span>
+              </div>
+              <div class="skill-card glass">
+                <i class="fa-solid fa-layer-group skill-icon" style="color: #1572B6;"></i>
+                <span>Component-Driven</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section bg-alt">
+      <div class="container">
+        <h2 class="section-title fade-up">Projects</h2>
+        <div class="projects-filter fade-up delay-1">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="fullstack">Fullstack</button>
+          <button class="filter-btn" data-filter="ai">AI / Computer Vision</button>
+        </div>
+        <div class="projects-grid">
+          <!-- Project 1: Hifz-ul-Quran App -->
+          <article class="project-card glass fade-up" data-category="mobile">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1609599006353-e629aaabfeae?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Hifz-ul-Quran App">
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Hifz-ul-Quran App</h3>
+              <p class="project-desc">A comprehensive Quran memorization and recitation application designed with intuitive progress tracking, audio recitation, and revision scheduling.</p>
+              <div class="project-tech">
+                <span class="tech-badge">Flutter</span>
+                <span class="tech-badge">Dart</span>
+                <span class="tech-badge">SQLite</span>
+                <span class="tech-badge">Audio API</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small btn-primary view-details-btn" data-id="hifz-quran">View Details <i class="fa-solid fa-circle-info"></i></a>
+                <a href="https://github.com/HamzaMahfooz12/Al-Quran" target="_blank" class="btn btn-small btn-outline"><i class="fa-brands fa-github"></i> Code</a>
+                <a href="#" target="_blank" class="btn btn-small btn-secondary" title="Download App / APK"><i class="fa-solid fa-download"></i> Download</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Tajweed-ul-Quran Institutional Website -->
+          <article class="project-card glass fade-up delay-1" data-category="frontend">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Tajweed-ul-Quran Institutional Website">
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Tajweed-ul-Quran Institutional Website</h3>
+              <p class="project-desc">Dedicated institutional web platform for a Quranic and Tajweed academy, featuring course curriculums, interactive syllabus guides, student enrollment, and responsive UI.</p>
+              <div class="project-tech">
+                <span class="tech-badge">React.js</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">Responsive Design</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small btn-primary view-details-btn" data-id="tajweed-institute">View Details <i class="fa-solid fa-circle-info"></i></a>
+                <a href="https://github.com/HamzaMahfooz12/Tajweed-ul-Quran" target="_blank" class="btn btn-small btn-outline"><i class="fa-brands fa-github"></i> Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: AI Helmet Detection for Road Safety -->
+          <article class="project-card glass fade-up delay-2" data-category="ai">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="AI Helmet Detection for Road Safety">
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">AI Helmet Detection for Road Safety</h3>
+              <p class="project-desc">Computer vision application utilizing deep learning to detect motorcycle riders without safety helmets in real-time traffic camera feeds, automating road safety monitoring.</p>
+              <div class="project-tech">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">OpenCV</span>
+                <span class="tech-badge">YOLOv8</span>
+                <span class="tech-badge">Deep Learning</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small btn-primary view-details-btn" data-id="helmet-detection">View Details <i class="fa-solid fa-circle-info"></i></a>
+                <a href="#" class="btn btn-small btn-outline disabled" title="Uploading to GitHub soon"><i class="fa-brands fa-github"></i> Coming Soon</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: E-Commerce Web Application -->
+          <article class="project-card glass fade-up delay-3" data-category="fullstack">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="E-Commerce Web Application">
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">E-Commerce Web Application</h3>
+              <p class="project-desc">Architected a fully responsive platform with dynamic product listings, real-time
+                shopping cart management, and multi-page navigation. Built reusable React components and
+                optimized rendering performance.</p>
+              <div class="project-tech">
+                <span class="tech-badge">React.js</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">HTML5/CSS3</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small btn-primary view-details-btn" data-id="ecommerce">View Details <i class="fa-solid fa-circle-info"></i></a>
+                <a href="https://github.com/HamzaMahfooz12/Ecommerce-Web" target="_blank" class="btn btn-small btn-outline"><i class="fa-brands fa-github"></i> Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: University Bus Management System -->
+          <article class="project-card glass fade-up" data-category="mobile">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="University Bus Management System">
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">University Bus Management System</h3>
+              <p class="project-desc">Cross-platform transport management solution comprising a React.js web frontend
+                and a Flutter mobile interface for accessing real-time bus routes, schedules, and stop data.</p>
+              <div class="project-tech">
+                <span class="tech-badge">React.js</span>
+                <span class="tech-badge">Flutter</span>
+                <span class="tech-badge">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small btn-primary view-details-btn" data-id="bus">View Details <i class="fa-solid fa-circle-info"></i></a>
+                <a href="#" class="btn btn-small btn-outline"><i class="fa-brands fa-github"></i> Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: Disaster Management System -->
+          <article class="project-card glass fade-up delay-1" data-category="frontend">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Disaster Management System">
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Disaster Management System</h3>
+              <p class="project-desc">Interactive emergency-response application enabling real-time filtering
+                of disaster reports by type, severity, and location with dynamic UI components for resource
+                coordination.</p>
+              <div class="project-tech">
+                <span class="tech-badge">React.js</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">CSS Grid/Flexbox</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small btn-primary view-details-btn" data-id="disaster">View Details <i class="fa-solid fa-circle-info"></i></a>
+                <a href="https://github.com/HamzaMahfooz12/Disaster-Response-MIS" target="_blank" class="btn btn-small btn-outline"><i class="fa-brands fa-github"></i> Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="experience section">
+      <div class="container">
+        <h2 class="section-title fade-up">Education & Awards</h2>
+        <div class="timeline">
+          <div class="timeline-item fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass">
+              <span class="timeline-date">Expected May 2028</span>
+              <h3 class="timeline-title">Bachelor of Science in Software Engineering</h3>
+              <h4 class="timeline-company">FAST – National University of Computer & Emerging Sciences (FAST-NUCES)</h4>
+              <p>Islamabad, Pakistan</p>
+            </div>
+          </div>
+          <div class="timeline-item fade-up">
+            <div class="timeline-dot" style="background: var(--accent);"></div>
+            <div class="timeline-content glass">
+              <span class="timeline-date" style="background: rgba(139, 92, 246, 0.1); color: var(--accent);">September
+                2025</span>
+              <h3 class="timeline-title">Academic Achievement Medal ×2</h3>
+              <h4 class="timeline-company">FAST-NUCES</h4>
+              <p>Awarded two Academic Achievement Medals for maintaining outstanding academic performance, consistent
+                problem-solving ability, and exemplary dedication across multiple semesters.</p>
+            </div>
+          </div>
+          <div class="timeline-item fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass">
+              <span class="timeline-date">Additional Info</span>
+              <h3 class="timeline-title">Core Competencies</h3>
+              <ul style="color: var(--text-muted); list-style-type: disc; margin-left: 20px; margin-top: 10px;">
+                <li><strong>Competitive Programming:</strong> Solved 30+ algorithmic challenges on LeetCode;
+                  participated in 2 ICPC style contests.</li>
+                <li><strong>API Integration:</strong> Hands-on experience consuming, testing, and documenting RESTful
+                  APIs using Postman; implemented OAuth 2.0.</li>
+                <li><strong>Database Engineering:</strong> Designed normalized schemas (3NF) and tuned MySQL query
+                  performance using indexing and EXPLAIN plans.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section bg-alt">
+      <div class="container">
+        <h2 class="section-title fade-up">Get In Touch</h2>
+        <div class="contact-wrapper">
+          <div class="contact-info fade-right">
+            <h3 class="contact-heading">Let's work together</h3>
+            <p class="contact-desc">I am currently seeking a Software Engineering, Web Development, Frontend, Backend,
+              or Full-Stack internship or entry-level opportunity. Feel free to reach out!</p>
+
+            <div class="contact-cards">
+              <div class="contact-card glass">
+                <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="contact-details">
+                  <h4>Phone</h4>
+                  <a href="tel:+923270811606">+92 327 0811606</a>
+                </div>
+              </div>
+              <div class="contact-card glass">
+                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <a href="mailto:gujgvh124@gmail.com">gujgvh124@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-card glass">
+                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="contact-details">
+                  <h4>Location</h4>
+                  <p>Islamabad, Pakistan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container fade-left">
+            <form class="contact-form glass" id="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required placeholder="Hamza Mahfooz">
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required placeholder="hamza@example.com">
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required placeholder="Opportunity / Inquiry">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required
+                  placeholder="Hello Hamza, I'd like to connect regarding..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Send Message <i
+                  class="fa-solid fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+      <div class="modal-content glass">
+        <span class="close-modal"><i class="fa-solid fa-xmark"></i></span>
+        <div class="modal-body">
+          <div class="modal-image">
+            <img id="modal-img" src="" alt="Project Image">
+          </div>
+          <div class="modal-info">
+            <h2 id="modal-title">Project Title</h2>
+            <div id="modal-tech" class="project-tech"></div>
+            <div id="modal-desc" class="modal-desc-text"></div>
+            <div class="modal-links">
+              <a href="#" id="modal-github" class="btn btn-outline" target="_blank"><i class="fa-brands fa-github"></i> View Repository</a>
+              <a href="#" id="modal-download" class="btn btn-secondary" target="_blank" style="display: none;"><i class="fa-solid fa-download"></i> Download App</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h2>Hamza<span>.</span></h2>
+          <p>Building reliable, maintainable, and user-centric software products.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Connect</h3>
+          <div class="social-icons">
+            <a href="https://github.com/HamzaMahfooz12" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/hamza-mahfooz-049907336/" target="_blank" aria-label="LinkedIn"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Hamza Mahfooz. All rights reserved.</p>
+        <a href="#home" class="back-to-top" aria-label="Back to Top"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
